@@ -1,5 +1,5 @@
 <?php
-    require 'configdb.php'; //Importamos credenciales.
+    require 'configdb.php';
     $conectar=new mysqli(HOSTNAME, USERNAME, PW, DB);
 ?>
 <!DOCTYPE html>
